@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ben Misingo | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+<!-- HERO WITH BACKGROUND -->
+<section 
+  class="min-h-screen flex flex-col justify-center items-center text-center px-6 relative bg-cover bg-center"
+ style="background-image: url('images/ben.jpg');"
+
+>
+
+  <!-- Dark Overlay -->
+<!-- Dark Overlay -->
+<div class="absolute inset-0 bg-black bg-opacity-70 backdrop-blur-sm"></div>
+
+
+  <!-- Content -->
+  <div class="relative z-10">
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">Ben Misingo</h1>
+
+    <p class="text-xl text-gray-300 mb-6 max-w-xl mx-auto">
+  I build scalable web applications and backend systems with a focus on
+  performance, structure, and clean design.
+</p>
+
+
+    <div class="flex gap-4 justify-center">
+      <a href="#projects" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg transition">
+        View Projects
+      </a>
+      <a href="#contact" class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition">
+        Contact Me
+      </a>
+    </div>
+  </div>
+<div class="mt-16 animate-bounce text-gray-400">
+  ↓
+</div>
+<a href="resume.pdf" download 
+   class="mt-4 inline-block text-sm text-gray-300 hover:text-white underline">
+   Download Resume
+</a>
+
+
+</section>
+
+
+  <!-- SKILLS -->
+  <section class="bg-gray-800 py-20 px-10">
+    <h2 class="text-4xl font-bold text-center mb-12">Skills</h2>
+
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+
+      <div class="bg-gray-900 p-6 rounded-xl">
+        <h3 class="text-xl font-semibold mb-3">Languages</h3>
+        <p class="text-gray-400">Python • C++ • JavaScript • C#</p>
+      </div>
+
+      <div class="bg-gray-900 p-6 rounded-xl">
+        <h3 class="text-xl font-semibold mb-3">Frontend</h3>
+        <p class="text-gray-400">HTML • CSS • Responsive Design</p>
+      </div>
+
+      <div class="bg-gray-900 p-6 rounded-xl">
+        <h3 class="text-xl font-semibold mb-3">Backend & Cloud</h3>
+        <p class="text-gray-400">MySQL • APIs • Google Cloud</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-20 px-10">
+    <h2 class="text-4xl font-bold text-center mb-12">Projects</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+     <div class="bg-gray-800 rounded-xl overflow-hidden hover:scale-105 hover:shadow-2xl transition duration-300">
+
+  <img src="images/bookstore.jpg" alt="Bookstore Web App"
+       class="w-full h-48 object-cover">
+
+  <div class="p-6">
+    <h3 class="text-2xl font-semibold mb-3">Bookstore Web App</h3>
+
+    <p class="text-gray-400 mb-4">
+      Built a dynamic web application that parses structured JSON data
+      to display interactive book reviews with a clean UI.
+    </p>
+
+    <p class="text-blue-400">Python • HTML • CSS • JSON</p>
+  </div>
+
+</div>
+
+
+      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition">
+        <h3 class="text-2xl font-semibold mb-3">Pizza Store Website</h3>
+        <p class="text-gray-400 mb-4">
+          Responsive ordering interface with clean UI and structured layout(class project).
+        </p>
+        <p class="text-blue-400">HTML • CSS • JavaScript</p>
+      </div>
+
+   <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition">
+        <h3 class="text-2xl font-semibold mb-3">Imani Outreach Website</h3>
+        <p class="text-gray-400 mb-4">
+         Website for Christian non-profit organization in Rwanda.
+        </p>
+        <p class="text-blue-400">HTML • CSS • JavaScript</p>
+      </div>
+
+   <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition">
+        <h3 class="text-2xl font-semibold mb-3">Budgeting App</h3>
+        <p class="text-gray-400 mb-4">
+         Interactive app to assist in budgeting and financial advice(in progress).
+        </p>
+        <p class="text-blue-400">HTML • CSS • JavaScript</p>
+      </div>
+
+    </div>
+  </section>
+
+<!-- CONTACT -->
+<section id="contact" class="bg-gray-800 py-20 text-center px-6">
+  <h2 class="text-4xl font-bold mb-6">Contact</h2>
+
+  <p class="text-gray-400 mb-6">
+    I'm currently seeking Software Engineering internship opportunities.
+    Feel free to reach out.
+  </p>
+
+  <!-- Email -->
+  <p class="text-blue-400 text-lg mb-6">
+    benjamin.misingo@go.stcloudstate.edu
+  </p>
+
+
+    </a>
+  </div>
+</section>
